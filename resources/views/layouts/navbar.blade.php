@@ -20,15 +20,40 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="nutrition"
-                        class="{{ request()->is('nutrition') ? 'active' : '' }} nav-link">
-                            Nutrition
+                        <a href="about"
+                        class="{{ request()->is('about') ? 'active' : '' }} nav-link">
+                            About
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a href="personal-training"
-                        class="{{ request()->is('personal-training') ? 'active' : '' }} nav-link">
-                            Personal Training
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Programmes
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <a href="online-courses"
+                                class="{{ request()->is('online-courses') ? 'active' : '' }} nav-link">
+                                    Online Courses
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="personal-training"
+                                class="{{ request()->is('personal-training') ? 'active' : '' }} nav-link">
+                                    Personal Training
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="nutrition"
+                                class="{{ request()->is('nutrition') ? 'active' : '' }} nav-link">
+                                    Nutrition
+                                </a>
+                            </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a href="members"
+                        class="{{ request()->is('members') ? 'active' : '' }} nav-link">
+                            Members Access
                         </a>
                     </li>
                     <li class="nav-item">

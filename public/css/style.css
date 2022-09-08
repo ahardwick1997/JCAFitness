@@ -8,6 +8,8 @@ nav {
     padding: 0;
     overflow: hidden;
     background-color: #4cd4cb;
+    overflow: visible;
+
   }
 
 /* li {
