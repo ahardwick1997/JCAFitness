@@ -45,6 +45,6 @@ Route::get('contact', function () {
     return view('contact');
 });
 
-Route::get('members', function () {
-    return view('members');
+Route::get('members-login', function () {
+    return view('members-login');
 });

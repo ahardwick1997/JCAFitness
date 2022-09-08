@@ -5,6 +5,9 @@
     <p>This is the Members Page</p>
 </body>
 
+@include('forms.login-form')
+
+
 @endsection
 
 

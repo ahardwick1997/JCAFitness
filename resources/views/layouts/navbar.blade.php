@@ -51,8 +51,8 @@
                         </ul>
                       </li>
                       <li class="nav-item">
-                        <a href="members"
-                        class="{{ request()->is('members') ? 'active' : '' }} nav-link">
+                        <a href="members-login"
+                        class="{{ request()->is('members-login') ? 'active' : '' }} nav-link">
                             Members Access
                         </a>
                     </li>
