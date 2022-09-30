@@ -16,35 +16,41 @@
                     <li class="nav-item">
                         <a href="/"
                         class="{{ request()->is('/') ? 'active' : '' }} nav-link">
+                        <i class="fa-solid fa-house"></i>
                             Home
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="about"
                         class="{{ request()->is('about') ? 'active' : '' }} nav-link">
+                        <i class="fa-solid fa-address-card"></i>
                             About
                         </a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-book"></i>
                           Programmes
                         </a>
                         <ul class="dropdown-menu">
                             <li class="nav-item">
                                 <a href="online-courses"
                                 class="{{ request()->is('online-courses') ? 'active' : '' }} nav-link">
+                                <i class="fa-solid fa-computer"></i>
                                     Online Courses
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="personal-training"
                                 class="{{ request()->is('personal-training') ? 'active' : '' }} nav-link">
+                                <i class="fa-solid fa-dumbbell"></i>
                                     Personal Training
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="nutrition"
                                 class="{{ request()->is('nutrition') ? 'active' : '' }} nav-link">
+                                <i class="fa-brands fa-nutritionix"></i>
                                     Nutrition
                                 </a>
                             </li>
@@ -53,12 +59,14 @@
                       <li class="nav-item">
                         <a href="members-login"
                         class="{{ request()->is('members-login') ? 'active' : '' }} nav-link">
+                        <i class="fa-solid fa-user-group"></i>
                             Members Access
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="contact"
                         class="{{ request()->is('contact') ? 'active' : '' }} nav-link">
+                        <i class="fa-solid fa-address-book"></i>
                             Contact Us
                         </a>
                     </li>
